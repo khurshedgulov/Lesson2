@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         TextView sumTv = findViewById(R.id.sumTxt);
         // Задаёт новое значение свойству text равную
         // сумме цифр 10+15, которую возвращает функция sum(int,int)
-        sumTv.setText(sum(10,15));
+        sumTv.setText(String.valueOf(sum(10,15)));
     }
     // Функция для расчёта суммы двух переданных цифр
     int sum(int a, int b)
